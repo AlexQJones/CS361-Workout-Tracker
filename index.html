@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Workout Tracker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Workout Tracker</h1>
+        <p>Track your workouts and manage your progress!</p>
+
+        <h2>Add Workout</h2>
+        <input type="text" id="workout-name" placeholder="Workout Name">
+
+        <select id="workout-type">
+            <option value="Cardio">Cardio</option>
+            <option value="Strength">Strength</option>
+            <option value="Flexibility">Flexibility</option>
+        </select>
+
+        <input type="date" id="workout-date">
+
+        <button id="add-button">Add Workout</button>
+
+        <h2>My Workouts</h2>
+
+        <div id="workout-list">
+            <!-- Workout entries will be displayed here -->
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
